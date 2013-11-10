@@ -14,14 +14,16 @@
 		C803BA5B1822E7570021D4C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C803BA5A1822E7570021D4C4 /* main.m */; };
 		C803BA5F1822E7570021D4C4 /* CompeteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C803BA5E1822E7570021D4C4 /* CompeteAppDelegate.m */; };
 		C803BA621822E7570021D4C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C803BA601822E7570021D4C4 /* Main.storyboard */; };
-		C803BA651822E7570021D4C4 /* CompeteMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C803BA641822E7570021D4C4 /* CompeteMasterViewController.m */; };
-		C803BA681822E7570021D4C4 /* CompeteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C803BA671822E7570021D4C4 /* CompeteDetailViewController.m */; };
 		C803BA6A1822E7570021D4C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C803BA691822E7570021D4C4 /* Images.xcassets */; };
 		C803BA711822E7570021D4C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C803BA701822E7570021D4C4 /* XCTest.framework */; };
 		C803BA721822E7570021D4C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C803BA4E1822E7570021D4C4 /* Foundation.framework */; };
 		C803BA731822E7570021D4C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C803BA521822E7570021D4C4 /* UIKit.framework */; };
 		C803BA7B1822E7570021D4C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C803BA791822E7570021D4C4 /* InfoPlist.strings */; };
 		C803BA7D1822E7570021D4C4 /* CompetitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C803BA7C1822E7570021D4C4 /* CompetitionsTests.m */; };
+		C8DA301B1830026B00E404F2 /* CompeteStartPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DA301A1830026B00E404F2 /* CompeteStartPageViewController.m */; };
+		C8DA301D183003A700E404F2 /* competitors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8DA301C183003A700E404F2 /* competitors.jpg */; };
+		C8DA30201830093F00E404F2 /* CompeteProfileHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DA301F1830093F00E404F2 /* CompeteProfileHomePageViewController.m */; };
+		C8DA302318300AD500E404F2 /* CompeteCreateNewAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DA302218300AD500E404F2 /* CompeteCreateNewAccountViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +48,19 @@
 		C803BA5D1822E7570021D4C4 /* CompeteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompeteAppDelegate.h; sourceTree = "<group>"; };
 		C803BA5E1822E7570021D4C4 /* CompeteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompeteAppDelegate.m; sourceTree = "<group>"; };
 		C803BA611822E7570021D4C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C803BA631822E7570021D4C4 /* CompeteMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompeteMasterViewController.h; sourceTree = "<group>"; };
-		C803BA641822E7570021D4C4 /* CompeteMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompeteMasterViewController.m; sourceTree = "<group>"; };
-		C803BA661822E7570021D4C4 /* CompeteDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompeteDetailViewController.h; sourceTree = "<group>"; };
-		C803BA671822E7570021D4C4 /* CompeteDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompeteDetailViewController.m; sourceTree = "<group>"; };
 		C803BA691822E7570021D4C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C803BA6F1822E7570021D4C4 /* CompetitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompetitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C803BA701822E7570021D4C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C803BA781822E7570021D4C4 /* CompetitionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CompetitionsTests-Info.plist"; sourceTree = "<group>"; };
 		C803BA7A1822E7570021D4C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C803BA7C1822E7570021D4C4 /* CompetitionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompetitionsTests.m; sourceTree = "<group>"; };
+		C8DA30191830026B00E404F2 /* CompeteStartPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompeteStartPageViewController.h; sourceTree = "<group>"; };
+		C8DA301A1830026B00E404F2 /* CompeteStartPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompeteStartPageViewController.m; sourceTree = "<group>"; };
+		C8DA301C183003A700E404F2 /* competitors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = competitors.jpg; path = ../competitors.jpg; sourceTree = "<group>"; };
+		C8DA301E1830093F00E404F2 /* CompeteProfileHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompeteProfileHomePageViewController.h; sourceTree = "<group>"; };
+		C8DA301F1830093F00E404F2 /* CompeteProfileHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompeteProfileHomePageViewController.m; sourceTree = "<group>"; };
+		C8DA302118300AD500E404F2 /* CompeteCreateNewAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompeteCreateNewAccountViewController.h; sourceTree = "<group>"; };
+		C8DA302218300AD500E404F2 /* CompeteCreateNewAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompeteCreateNewAccountViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,14 +120,8 @@
 		C803BA541822E7570021D4C4 /* Competitions */ = {
 			isa = PBXGroup;
 			children = (
-				C803BA5D1822E7570021D4C4 /* CompeteAppDelegate.h */,
-				C803BA5E1822E7570021D4C4 /* CompeteAppDelegate.m */,
-				C803BA601822E7570021D4C4 /* Main.storyboard */,
-				C803BA631822E7570021D4C4 /* CompeteMasterViewController.h */,
-				C803BA641822E7570021D4C4 /* CompeteMasterViewController.m */,
-				C803BA661822E7570021D4C4 /* CompeteDetailViewController.h */,
-				C803BA671822E7570021D4C4 /* CompeteDetailViewController.m */,
-				C803BA691822E7570021D4C4 /* Images.xcassets */,
+				C8DA3018182FFE6F00E404F2 /* Model */,
+				C8DA3017182FFE5800E404F2 /* GUI */,
 				C803BA551822E7570021D4C4 /* Supporting Files */,
 			);
 			path = Competitions;
@@ -155,6 +154,31 @@
 				C803BA791822E7570021D4C4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8DA3017182FFE5800E404F2 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				C8DA301C183003A700E404F2 /* competitors.jpg */,
+				C803BA5D1822E7570021D4C4 /* CompeteAppDelegate.h */,
+				C803BA5E1822E7570021D4C4 /* CompeteAppDelegate.m */,
+				C803BA601822E7570021D4C4 /* Main.storyboard */,
+				C803BA691822E7570021D4C4 /* Images.xcassets */,
+				C8DA30191830026B00E404F2 /* CompeteStartPageViewController.h */,
+				C8DA301A1830026B00E404F2 /* CompeteStartPageViewController.m */,
+				C8DA301E1830093F00E404F2 /* CompeteProfileHomePageViewController.h */,
+				C8DA301F1830093F00E404F2 /* CompeteProfileHomePageViewController.m */,
+				C8DA302118300AD500E404F2 /* CompeteCreateNewAccountViewController.h */,
+				C8DA302218300AD500E404F2 /* CompeteCreateNewAccountViewController.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		C8DA3018182FFE6F00E404F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +261,7 @@
 				C803BA6A1822E7570021D4C4 /* Images.xcassets in Resources */,
 				C803BA591822E7570021D4C4 /* InfoPlist.strings in Resources */,
 				C803BA621822E7570021D4C4 /* Main.storyboard in Resources */,
+				C8DA301D183003A700E404F2 /* competitors.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,10 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C803BA651822E7570021D4C4 /* CompeteMasterViewController.m in Sources */,
+				C8DA302318300AD500E404F2 /* CompeteCreateNewAccountViewController.m in Sources */,
 				C803BA5F1822E7570021D4C4 /* CompeteAppDelegate.m in Sources */,
 				C803BA5B1822E7570021D4C4 /* main.m in Sources */,
-				C803BA681822E7570021D4C4 /* CompeteDetailViewController.m in Sources */,
+				C8DA301B1830026B00E404F2 /* CompeteStartPageViewController.m in Sources */,
+				C8DA30201830093F00E404F2 /* CompeteProfileHomePageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +493,7 @@
 				C803BA821822E7570021D4C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C803BA831822E7570021D4C4 /* Build configuration list for PBXNativeTarget "CompetitionsTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +502,7 @@
 				C803BA851822E7570021D4C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
