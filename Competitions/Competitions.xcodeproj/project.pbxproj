@@ -20,6 +20,8 @@
 		C803BA731822E7570021D4C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C803BA521822E7570021D4C4 /* UIKit.framework */; };
 		C803BA7B1822E7570021D4C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C803BA791822E7570021D4C4 /* InfoPlist.strings */; };
 		C803BA7D1822E7570021D4C4 /* CompetitionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C803BA7C1822E7570021D4C4 /* CompetitionsTests.m */; };
+		C82E6AFC1842782500DAA091 /* CompeteNewAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = C82E6AFB1842782500DAA091 /* CompeteNewAccount.m */; };
+		C872E0931831665C00768B87 /* CompeteController.m in Sources */ = {isa = PBXBuildFile; fileRef = C872E0921831665C00768B87 /* CompeteController.m */; };
 		C8DA301B1830026B00E404F2 /* CompeteStartPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DA301A1830026B00E404F2 /* CompeteStartPageViewController.m */; };
 		C8DA301D183003A700E404F2 /* competitors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8DA301C183003A700E404F2 /* competitors.jpg */; };
 		C8DA30201830093F00E404F2 /* CompeteProfileHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DA301F1830093F00E404F2 /* CompeteProfileHomePageViewController.m */; };
@@ -54,6 +56,10 @@
 		C803BA781822E7570021D4C4 /* CompetitionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CompetitionsTests-Info.plist"; sourceTree = "<group>"; };
 		C803BA7A1822E7570021D4C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C803BA7C1822E7570021D4C4 /* CompetitionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompetitionsTests.m; sourceTree = "<group>"; };
+		C82E6AFA1842782500DAA091 /* CompeteNewAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompeteNewAccount.h; sourceTree = "<group>"; };
+		C82E6AFB1842782500DAA091 /* CompeteNewAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompeteNewAccount.m; sourceTree = "<group>"; };
+		C872E0911831665C00768B87 /* CompeteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompeteController.h; sourceTree = "<group>"; };
+		C872E0921831665C00768B87 /* CompeteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompeteController.m; sourceTree = "<group>"; };
 		C8DA30191830026B00E404F2 /* CompeteStartPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompeteStartPageViewController.h; sourceTree = "<group>"; };
 		C8DA301A1830026B00E404F2 /* CompeteStartPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompeteStartPageViewController.m; sourceTree = "<group>"; };
 		C8DA301C183003A700E404F2 /* competitors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = competitors.jpg; path = ../competitors.jpg; sourceTree = "<group>"; };
@@ -120,6 +126,7 @@
 		C803BA541822E7570021D4C4 /* Competitions */ = {
 			isa = PBXGroup;
 			children = (
+				C872E090183165CB00768B87 /* Controller */,
 				C8DA3018182FFE6F00E404F2 /* Model */,
 				C8DA3017182FFE5800E404F2 /* GUI */,
 				C803BA551822E7570021D4C4 /* Supporting Files */,
@@ -156,6 +163,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C872E090183165CB00768B87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C872E0911831665C00768B87 /* CompeteController.h */,
+				C872E0921831665C00768B87 /* CompeteController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		C8DA3017182FFE5800E404F2 /* GUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +193,8 @@
 		C8DA3018182FFE6F00E404F2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C82E6AFA1842782500DAA091 /* CompeteNewAccount.h */,
+				C82E6AFB1842782500DAA091 /* CompeteNewAccount.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -281,10 +299,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8DA302318300AD500E404F2 /* CompeteCreateNewAccountViewController.m in Sources */,
+				C82E6AFC1842782500DAA091 /* CompeteNewAccount.m in Sources */,
 				C803BA5F1822E7570021D4C4 /* CompeteAppDelegate.m in Sources */,
 				C803BA5B1822E7570021D4C4 /* main.m in Sources */,
 				C8DA301B1830026B00E404F2 /* CompeteStartPageViewController.m in Sources */,
 				C8DA30201830093F00E404F2 /* CompeteProfileHomePageViewController.m in Sources */,
+				C872E0931831665C00768B87 /* CompeteController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

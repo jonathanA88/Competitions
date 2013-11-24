@@ -54,6 +54,8 @@
 {
     //check the textfields for the input values and check in database if login exists,
     //perform the segue or print out username and/or password wrong
+    //This should be done by the controller, this method should either call another
+    //method in the controller or delegate...
     [self performSegueWithIdentifier:@"login" sender:self];
 }
 
